@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        textView.text = "username:\(NCMBUser.currentUser().userName)\ncreateData:\(NCMBUser.currentUser().createDate)\nupdateDate:\(NCMBUser.currentUser().updateDate)\n"
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
